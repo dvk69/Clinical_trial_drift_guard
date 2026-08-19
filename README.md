@@ -24,14 +24,15 @@ Multi-site clinical trials managed by operations like the **Duke Clinical Resear
 ```
 
 ---
-## Dashboard & Live Diagnostics
+## Live Pipeline Diagnostics & Visual Proof
 
-| Cross-Site Statistical Drift Heatmap | Distribution Shift Inspection |
-| :---: | :---: |
-| ![Drift Heatmap](assets/drift_heatmap.png) | ![Boxplot](assets/sensor_shift_boxplot.png) |
+### 1. Ingestion Health & Cross-Site PSI Drift Heatmap
+> 10,000 patient records ingested across 5 simulated trial sites with zero PII leaks. Sites 4 and 5 are automatically isolated due to systematic distribution shifts ($\text{PSI} > 1.5$).
+![Cross-Site Drift Matrix](assets/drift_matrix_heatmap.png)
 
-> **Automated PyTest Validation:** Cryptographic de-identification and assertions verified with 100% pass rate.
-> ![PyTest](assets/terminal_tests.png)
+### 2. Sensor Shift Boxplot & Biostatistical Diagnostic Logs
+> Kolmogorov-Smirnov test isolates systematic $+22.5\text{ mmHg}$ sensor calibration drift ($p < 10^{-15}$, $\text{KS} = 0.778$) before data reaches biostatistical analysis.
+![Distribution Diagnostics](assets/sensor_drift_diagnostics.png)
 
 ## Performance & Reliability Metrics
 

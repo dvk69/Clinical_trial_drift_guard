@@ -24,6 +24,14 @@ Multi-site clinical trials managed by operations like the **Duke Clinical Resear
 ```
 
 ---
+## Dashboard & Live Diagnostics
+
+| Cross-Site Statistical Drift Heatmap | Distribution Shift Inspection |
+| :---: | :---: |
+| ![Drift Heatmap](assets/drift_heatmap.png) | ![Boxplot](assets/sensor_shift_boxplot.png) |
+
+> **Automated PyTest Validation:** Cryptographic de-identification and assertions verified with 100% pass rate.
+> ![PyTest](assets/terminal_tests.png)
 
 ## Performance & Reliability Metrics
 

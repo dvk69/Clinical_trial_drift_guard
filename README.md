@@ -1,4 +1,4 @@
-# Clinical Trial Data Integrity Monitor (`clinical-trial-drift-guard`)
+# Clinical Trial Data Integrity Monitor (clinical_trial_drift_guard)
 
 > **A distributed PySpark data quality pipeline designed to ingest, de-identify, and detect cross-site feature drift in multi-site clinical trial data—built to demonstrate automated data integrity layers adjacent to systems like Duke's DEDUCE and PACE.**
 
@@ -8,7 +8,7 @@
 
 Multi-site clinical trials managed by operations like the **Duke Clinical Research Institute (DCRI)** require continuous monitoring to ensure "impeccable data integrity" across disparate participating sites. Differences in medical device calibration, sensor units, or data collection protocols across study arms can introduce severe statistical bias.
 
-`clinical-trial-drift-guard` implements a research-computing data pipeline layer that sits between raw EHR/CRMS site exports and analytical compute environments like **PACE (Protected Analytics Computing Environment)** and **DEDUCE**.
+`clinical_trial_drift_guard` implements a research-computing data pipeline layer that sits between raw EHR/CRMS site exports and analytical compute environments like **PACE (Protected Analytics Computing Environment)** and **DEDUCE**.
 
 ```
 [ Multi-Site EHR / Trial Ingestion ] 

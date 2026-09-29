@@ -1,6 +1,6 @@
 # Clinical Trial Data Integrity Monitor (clinical_trial_drift_guard)
 
-> **A distributed PySpark data quality pipeline designed to ingest, de-identify, and detect cross-site feature drift in multi-site clinical trial data—built to demonstrate automated data integrity layers adjacent to systems like Duke's DEDUCE and PACE.**
+> **A distributed PySpark data quality pipeline designed to ingest, de-identify, and detect cross-site feature drift in multi-site clinical trial data, built to demonstrate automated data integrity layers adjacent to systems like Duke's DEDUCE and PACE.**
 
 ---
 
